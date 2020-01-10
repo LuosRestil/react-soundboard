@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.drum-pad {
+  border: 1px solid white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+#drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 2rem;
+}
+
+#display {
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: normal;
+  font-size: 2rem;
+}
